@@ -1,0 +1,69 @@
+<div class="group_1 row">
+  <div class="group row">
+    <div class="group_4 row">
+      <img src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" class="image" />
+    </div>
+    <div class="group_10 column">
+      <div class="group_5 column">
+        <h4 class="element">
+          Erin Brockovich
+        </h4>
+        <p class="igx-typography__subtitle-1 element">
+          Water Quality Specialist
+        </p>
+      </div>
+      <div class="group_9 row">
+        <button igxButton="flat" class="button">
+          personal
+        </button>
+        <button igxButton="flat" class="button_1">
+          job
+        </button>
+        <button igxButton="flat" class="button_1">
+          time-off
+        </button>
+        <button igxButton="flat" class="button_1">
+          emergency
+        </button>
+        <button igxButton="flat" class="button_1">
+          documents
+        </button>
+        <button igxButton="flat" class="button_1">
+          benefits
+        </button>
+        <button igxButton="flat" class="button_1">
+          pay info
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="group_2 row">
+  <div class="group_8 row">
+    <div class="group_3 column">
+      <div class="group_7 column">
+        <p class="igx-typography__body-1 text_1">
+          Reports
+        </p>
+      </div>
+      <igx-grid [data]="testWebinarLinkCustomersTable" [allowFiltering]="true" filterMode="excelStyleFilter" [autoGenerate]="false" width="100%" height="400px" displayDensity="cosy" primaryKey class="grid">
+        <igx-column field="CustomerID" header="CustomerID" title="CustomerID" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="CompanyName" header="CompanyName" title="CompanyName" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="ContactName" header="ContactName" title="ContactName" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="ContactTitle" header="ContactTitle" title="ContactTitle" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="Address" header="Address" title="Address" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="City" header="City" title="City" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="Region" header="Region" title="Region" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="PostalCode" header="PostalCode" title="PostalCode" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="Country" header="Country" title="Country" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="Phone" header="Phone" title="Phone" dataType="string" [sortable]="true"></igx-column>
+        <igx-column field="Fax" header="Fax" title="Fax" dataType="string" [sortable]="true"></igx-column>
+      </igx-grid>
+    </div>
+  </div>
+</div>
+<div class="group_6 row">
+  <p class="igx-typography__body-2 text">
+    (c) 2020 IndigoDesign Inc.
+  </p>
+</div>
